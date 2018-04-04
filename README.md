@@ -27,7 +27,7 @@ The directory structure for this repo looks like this:
                 |── output
                     └── sessionization.txt
   
-#Running Code
+# Running Code
     To run code for this repo, you need to compile run.sh with the input folder containing two files inactivity_period.txt and log.csv. Output file generated would be sessionization.txt.
     
     Example to run this code: edgar-analytics~$ sh run.sh
