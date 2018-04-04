@@ -7,11 +7,10 @@ Created on Tue Apr  3 22:04:43 2018
 """
 import sys
 import csv
-import collections
 from datetime import datetime, timedelta
 TIME_FORMAT = '%Y-%m-%d %H:%M:%S'
 session = dict()
-track_session = collections.OrderedDict()
+track_session = dict()
 
 def createSession(log,inactivity_time):
     """ Get values from each row from the input and create a session for each ip"""
