@@ -1,4 +1,37 @@
-# Table of Contents
+# Edgar-Analytics (Insight Data Engineering Coding Challenge)
+This repository includes my solution to the insight Data Engineering coding challenge for edgar-analytics. 
+# Directory Structure
+The directory structure for this repo looks like this:
+
+    ├── README.md 
+    ├── run.sh
+    ├── src
+    │   └── sessionization.py
+    ├── input
+    │   └── inactivity_period.txt
+    │   └── log.csv
+    ├── output
+    |   └── sessionization.txt
+    ├── insight_testsuite
+        └── run_tests.sh
+        └── tests
+            └── test_1
+            |   ├── input
+            |   │   └── inactivity_period.txt
+            |   │   └── log.csv
+            |   |__ output
+            |   │   └── sessionization.txt
+            ├── your-own-test_1
+                ├── input
+                │   └── your-own-inputs
+                |── output
+                    └── sessionization.txt
+  
+# Running Code
+    To run code for this repo, you need to compile run.sh with the input folder containing two files inactivity_period.txt and log.csv. Output file generated would be sessionization.txt.
+    
+    Example to run this code: edgar-analytics~$ sh run.sh
+    
 1. [Understanding the challenge](README.md#understanding-the-challenge)
 2. [Introduction](README.md#introduction)
 3. [Challenge summary](README.md#challenge-summary)
