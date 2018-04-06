@@ -21,9 +21,16 @@ The directory structure for this repo looks like this:
             |   │   └── log.csv
             |   |__ output
             |   │   └── sessionization.txt
-            ├── your-own-test_1
+            ├── test_2
+            |   ├── input
+            |   │   └── inactivity_period.txt
+            |   │   └── log.csv
+            |   |── output
+            |        └── sessionization.txt
+            ├── test_3
                 ├── input
-                │   └── your-own-inputs
+                │   └── inactivity_period.txt
+                │   └── log.csv
                 |── output
                     └── sessionization.txt
 # Resources and Dependencies
@@ -31,6 +38,7 @@ The directory structure for this repo looks like this:
  * libraries 
      * sys
      * datetime
+     * csv
     
 # Running Code
 To run code for this repo, you need to compile run.sh with the input folder containing two files inactivity_period.txt and log.csv. Output file generated would be sessionization.txt.    
